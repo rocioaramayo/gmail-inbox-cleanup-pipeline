@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local secrets and OAuth tokens
+outputs/credentials.json
+outputs/token.json
+*.env
+.env
+
+# Local models and generated data
+outputs/gmail_classifier.joblib
+outputs/gmail_training_data.csv
+outputs/gmail_training_data_prefilled.csv
+outputs/gmail_training_data_prefilled_preview.txt
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
